@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding:10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-block{
+  display: block;
+  max-width: 100%;
+  width: 96%;
+  padding:10px 20px;
+  margin:10px 20px;
+
+}
+
+.task{
+  background-color: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder{
+  border-left: 5px solid green;
+}
+
+.task h5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.add-form{
+  margin:30px 0;
+  display: block;
+}
+
+.form-control{
+  display: block;
+  padding: 10px 20px;
+}
+
+.form-control.reminder{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.form-control.reminder label{
+  width: 50%;
+}
+
+.form-control input{
+  width: 100%;
+  padding: 10px;
+}
+
+.footer{
+  margin-top: 30px;
+  text-align: center;
+}
